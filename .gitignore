@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and virtual environments
+.pytest_cache/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+notebook/*.nbconvert.ipynb
+*.log
+
+# Large Model Checkpoints & Weights (exceeds GitHub 100MB limit)
+artifacts/checkpoints/
+*.pt
+*.pth
+*.bin
+
+# Large external datasets / archives
+data/flowers102/
+*.tgz
+*.tar.gz
+*.zip
+
+# Operating System Files
+.DS_Store
+Thumbs.db
